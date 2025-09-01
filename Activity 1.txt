@@ -4,14 +4,15 @@
         it takes 1 step for reading 
     2) Searching for value not in array
         It can take up to 100 unless using a searching method
-    3) Insert at begining
+    3) Insert at beginning
         100 + 1 steps since all need to be shifted back by one
         and there needs to be a step to add
     4) Insert at End
         1 step since add at the end
-    5) Deletion at begining
+    5) Deletion at beginning
         99 steps since remove first and shift all up one
     6) Deletion at end of array
         1 step since only delete last one
-#4 N steps for N terms since we need to to check every item 
-#5 
+#4 N steps for N terms since we need to check every item 
+#5 see code for memory address
+
