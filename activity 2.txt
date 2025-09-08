@@ -1,0 +1,7 @@
+{2,4,6,8,10,12,13}
+1. checking one by one; 4 steps
+2. check middle, then new higher middle then new middle; 3 steps
+3. log2 (100,000) = 16.6 or 17 steps (googled)
+4. code on searching.cpp
+    steps for linear = 7
+    steps for binary = 4
