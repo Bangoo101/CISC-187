@@ -1,0 +1,5 @@
+1) 4N+16 steps turns to O(n), linear
+2) 2n^2 turn to O(n^2)
+3) O(n) since the first loop is O(n) and the second loop is O(n) 
+4) O(n) + 3(O(1)) = O(n)
+5) O(n) * n/2 = (1/2)n^2 = O(n^2)
