@@ -1,0 +1,24 @@
+1)  For average-case senerios with elements already sorted the element at index n-1 will have been compared
+ n-1 times so the total number for comparisons is equivalent to N(N-1)/2 where N is the number of elements in the index. 
+ So the O notation would transform into O(n^2) since we are removing any multiplier and refining the notation to its
+  highest exponent.
+2)  Start at index 0 instead of 1. 
+    Worst case senerio the array is in descending order. [5,4,3,2,1]
+    Step by step:
+    i=0 sorted (on change)
+    i=1 shift (1 change)
+    i=2 shift (2 change)
+    i=3 shift (3 change)
+    i=4 shift (4 change)
+    insert shifted (1+2+3+4=10)
+    10+10=20
+3)a) complexity = O(n) because linear since its only by string length
+  b) reduce the code to immediatley return when x is found assuming it is sorted
+  function containX(string){
+    for (let i = 0; i< string.length; i++){
+        if(string[i]=="X"){
+            return true;
+        }
+    }
+    return false;
+  }
