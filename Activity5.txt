@@ -1,0 +1,8 @@
+1) see code. uses a bubble sort to sort the array first then uses
+ unordered_map on the array to link it up with a hash then looks
+ up 100 and finds it in one. 
+2) for Branden the hash is 4883539501400498415
+3) tombstones are used to mark deleted cells in the hash table 
+    The issue with introducing tombstones is it still has to skip
+    over the tombstones so issues can occur over time where it 
+    slows down search and insert operations.
