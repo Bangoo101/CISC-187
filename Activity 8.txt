@@ -1,0 +1,23 @@
+1) 
+    1
+     \
+      5
+     /  \
+    2    9
+     \  / \
+      4|6   10
+     /   \
+    3     8
+2)
+log (1000) = 10
+maximum 10 steps
+3)
+int findMax(Node* root){
+    Node* current = root;
+    while (current->right != nullprt){
+        current = current->right; 
+    }
+    return current->data;
+}
+4)
+see code*
