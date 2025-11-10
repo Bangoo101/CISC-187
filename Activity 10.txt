@@ -1,0 +1,9 @@
+1)
+            A - B - C - D 
+            |       |
+            F       E 
+
+2) see Activity 10.cpp
+3)
+BFS : O(V+E) -> O(V)
+DFS : O(V+E) -> O(V)
