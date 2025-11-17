@@ -1,0 +1,15 @@
+1)
+base case is 
+return if low > high
+
+2)
+Stack overflow since 1 is never reached since the factorial goes down by 2 from 10 so 1 is inaccessible. 
+
+3) 
+def sum(low, high) 
+    return 0 if high < low // add in base case
+    return high + sum(low, high - 1)
+end
+
+4) 
+see Activity 12.cpp
